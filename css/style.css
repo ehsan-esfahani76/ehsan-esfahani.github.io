@@ -1,0 +1,75 @@
+@font-face {
+  font-family:vazir;
+  src: url(../fonts/vazir/Vazir-Black-WOL.ttf) format(ttf),url(../fonts/vazir/Vazir-Black-WOL.woff)format(woff),url(../fonts/vazir/Vazir-Bold-WOL.eot)format(eot);
+}
+@font-face {
+  font-family: yekan;
+  src: url(../fonts/yekan/Yekan.eot)format(eot),url(../fonts/yekan/Yekan.ttf)format(ttf),url(../fonts/yekan/Yekan.woff)format(woff);
+}
+@font-face {
+  font-family: me-quran;
+  src: url(../fonts/me-quran/me-quran.eot)format(eot),url(../fonts/me-quran/me-quran.ttf)format(ttf),url(../fonts/me-quran/me-quran.woff)format(woff),url(../fonts/me-quran/me-quran.woff2)format(woff2);
+}
+*{
+  font-family: vazir;
+}
+
+body{
+    background-image: url(../image/old-paper-nagsh.ir-4.jpg);
+    direction: rtl;
+    
+  }
+
+  .item-nav-menu{
+    font-size: large;
+  }
+
+ .item-nav-menu:hover{
+  box-shadow: 0 1px 5px 1px seashell;
+  transition: 1s;
+ }
+
+ .search-holder{
+  background-image: url(../image/search-container-corner.jpg);
+  height: 30rem;
+  -webkit-filter: grayscale(10);
+}
+
+.logo-search{
+  display: flex;
+  justify-content: center;
+}
+.logo-search1 img{
+  width: 15rem;
+  margin-top: 40px;
+}
+.logo-search2 img{
+  width: 15rem;
+  margin-top: 40px;
+}
+.form-search1{
+  width: 600px;
+  margin-top: 90px;
+}
+.form-search2{
+  width: 250px;
+  margin-top: 80px;
+}
+
+.search{
+  position: absolute;
+  top: 5px;
+  left: 5px;
+}
+
+.soore-holder a{
+  text-decoration: none;
+  list-style: none;
+  color: aliceblue;
+  font-size: large;
+}
+
+.soore-holder div:hover{
+  background-color: rgb(145, 104, 104);
+  transition: 1s;
+}

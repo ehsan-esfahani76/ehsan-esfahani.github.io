@@ -32,7 +32,7 @@ body{
  .search-holder{
   background-image: url(../image/search-container-corner.jpg);
   height: 30rem;
-  -webkit-filter: grayscale(10);
+  filter: grayscale(10);
 }
 
 .logo-search{
